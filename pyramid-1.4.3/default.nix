@@ -202,7 +202,7 @@ with import <nixpkgs> {};
   in
 
    buildPythonPackage rec { 
-    name = "PurePythonEnv";
+    name = "Pyramid-1.4.3-Env";
     propagatedBuildInputs = with python27Packages; [
       git
       libxml2
